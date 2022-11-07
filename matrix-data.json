@@ -1,0 +1,61 @@
+{
+  "nodes":
+  [
+    {"name": "Alzheimer's", "group": "Disease", "index": 0},
+    {"name": "ALS", "group": "Disease", "index": 1},
+    {"name": "Epilepsy", "group": "Disease", "index": 2},
+    {"name": "GBS", "group": "Disease", "index": 3},
+    {"name": "Huntington's", "group": "Disease", "index": 4},
+    {"name": "Hydrocephalus", "group": "Disease", "index": 5},
+    {"name": "MS", "group": "Disease", "index": 6},
+    {"name": "Muscular Dystrophy", "group": "Disease", "index": 7},
+    {"name": "Parkinson's", "group": "Disease", "index": 8}
+  ],
+  "links":
+  [
+    {"source": 0, "target": 1, "value": 2},
+    {"source": 0, "target": 2, "value": 2},
+    {"source": 0, "target": 3, "value": 1},
+    {"source": 0, "target": 4, "value": 1},
+    {"source": 0, "target": 5, "value": 3},
+    {"source": 0, "target": 6, "value": 6},
+    {"source": 0, "target": 7, "value": 1},
+    {"source": 0, "target": 8, "value": 5},
+
+
+    {"source": 1, "target": 3, "value": 5},
+    {"source": 1, "target": 4, "value": 5},
+    {"source": 1, "target": 5, "value": 2},
+    {"source": 1, "target": 6, "value": 6},
+    {"source": 1, "target": 7, "value": 2},
+    {"source": 1, "target": 8, "value": 4},
+
+
+    {"source": 2, "target": 5, "value": 1},
+    {"source": 2, "target": 6, "value": 2},
+
+    {"source": 2, "target": 8, "value": 2},
+
+    {"source": 3, "target": 4, "value": 9},
+    {"source": 3, "target": 5, "value": 1},
+    {"source": 3, "target": 6, "value": 5},
+    {"source": 3, "target": 7, "value": 1},
+    {"source": 3, "target": 8, "value": 3},
+
+    {"source": 4, "target": 5, "value": 1},
+    {"source": 4, "target": 6, "value": 5},
+    {"source": 4, "target": 7, "value": 1},
+    {"source": 4, "target": 8, "value": 3},
+
+    {"source": 5, "target": 6, "value": 6},
+    {"source": 5, "target": 7, "value": 2},
+    {"source": 5, "target": 8, "value": 6},
+
+    {"source": 6, "target": 7, "value": 3},
+    {"source": 6, "target": 8, "value": 7},
+    {"source": 6, "target": 8, "value": 8},
+    {"source": 6, "target": 8, "value": 10},
+
+    {"source": 7, "target": 8, "value": 3}
+  ]
+}
