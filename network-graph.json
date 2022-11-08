@@ -76,7 +76,18 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "node-data", "field": "group"},
-      "range": {"scheme": "tableau10"}
+      "range": [
+        "#b30000",
+        "#E2711D",
+        "#A96DA3",
+        "#4421af",
+        "#1a53ff",
+        "#91C4F2",
+        "#00b7c7",
+        "#5ad45a",
+        "#ebdc78",
+        "#BCBDC0"
+      ]
     }
   ],
 
@@ -106,7 +117,9 @@
         },
         "update": {
           "size": {"signal": "2 * nodeRadius * nodeRadius"},
-          "cursor": {"value": "pointer"}
+          "cursor": {"value": "pointer"},
+          "tooltip":
+            {"signal": "{'Name': datum.name}"}
         }
       },
 

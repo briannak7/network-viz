@@ -8,54 +8,55 @@
     {"name": "Huntington's", "group": "Disease", "index": 4},
     {"name": "Hydrocephalus", "group": "Disease", "index": 5},
     {"name": "MS", "group": "Disease", "index": 6},
-    {"name": "Muscular Dystrophy", "group": "Disease", "index": 7},
+    {"name": "MD", "group": "Disease", "index": 7},
     {"name": "Parkinson's", "group": "Disease", "index": 8}
   ],
   "links":
   [
-    {"source": 0, "target": 1, "value": 2},
-    {"source": 0, "target": 2, "value": 2},
-    {"source": 0, "target": 3, "value": 1},
-    {"source": 0, "target": 4, "value": 1},
-    {"source": 0, "target": 5, "value": 3},
-    {"source": 0, "target": 6, "value": 6},
-    {"source": 0, "target": 7, "value": 1},
-    {"source": 0, "target": 8, "value": 5},
+    {"source": 0, "target": 1, "value": 24},
+    {"source": 0, "target": 2, "value": 24},
+    {"source": 0, "target": 3, "value": 25},
+    {"source": 0, "target": 4, "value": 25},
+    {"source": 0, "target": 5, "value": 23},
+    {"source": 0, "target": 6, "value": 20},
+    {"source": 0, "target": 7, "value": 25},
+    {"source": 0, "target": 8, "value": 21},
 
 
-    {"source": 1, "target": 3, "value": 5},
-    {"source": 1, "target": 4, "value": 5},
-    {"source": 1, "target": 5, "value": 2},
-    {"source": 1, "target": 6, "value": 6},
-    {"source": 1, "target": 7, "value": 2},
-    {"source": 1, "target": 8, "value": 4},
+    {"source": 1, "target": 2, "value": 26},
+    {"source": 1, "target": 3, "value": 21},
+    {"source": 1, "target": 4, "value": 21},
+    {"source": 1, "target": 5, "value": 24},
+    {"source": 1, "target": 6, "value": 20},
+    {"source": 1, "target": 7, "value": 24},
+    {"source": 1, "target": 8, "value": 22},
 
 
-    {"source": 2, "target": 5, "value": 1},
-    {"source": 2, "target": 6, "value": 2},
+    {"source": 2, "target": 3, "value": 26},
+    {"source": 2, "target": 4, "value": 26},
+    {"source": 2, "target": 5, "value": 25},
+    {"source": 2, "target": 6, "value": 24},
+    {"source": 2, "target": 7, "value": 26},
+    {"source": 2, "target": 8, "value": 24},
 
-    {"source": 2, "target": 8, "value": 2},
+    {"source": 3, "target": 4, "value": 17},
+    {"source": 3, "target": 5, "value": 25},
+    {"source": 3, "target": 6, "value": 21},
+    {"source": 3, "target": 7, "value": 25},
+    {"source": 3, "target": 8, "value": 23},
 
-    {"source": 3, "target": 4, "value": 9},
-    {"source": 3, "target": 5, "value": 1},
-    {"source": 3, "target": 6, "value": 5},
-    {"source": 3, "target": 7, "value": 1},
-    {"source": 3, "target": 8, "value": 3},
+    {"source": 4, "target": 5, "value": 25},
+    {"source": 4, "target": 6, "value": 21},
+    {"source": 4, "target": 7, "value": 25},
+    {"source": 4, "target": 8, "value": 23},
 
-    {"source": 4, "target": 5, "value": 1},
-    {"source": 4, "target": 6, "value": 5},
-    {"source": 4, "target": 7, "value": 1},
-    {"source": 4, "target": 8, "value": 3},
+    {"source": 5, "target": 6, "value": 20},
+    {"source": 5, "target": 7, "value": 24},
+    {"source": 5, "target": 8, "value": 20},
 
-    {"source": 5, "target": 6, "value": 6},
-    {"source": 5, "target": 7, "value": 2},
-    {"source": 5, "target": 8, "value": 6},
+    {"source": 6, "target": 7, "value": 23},
+    {"source": 6, "target": 8, "value": 16},
 
-    {"source": 6, "target": 7, "value": 3},
-    {"source": 6, "target": 8, "value": 7},
-    {"source": 6, "target": 8, "value": 8},
-    {"source": 6, "target": 8, "value": 10},
-
-    {"source": 7, "target": 8, "value": 3}
+    {"source": 7, "target": 8, "value": 23}
   ]
 }

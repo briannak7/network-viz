@@ -5,7 +5,7 @@
   "height": 800,
   "padding": 2,
   "title": {
-    "text": "Shared Symptoms Between Diseases",
+    "text": "Hamming Distance Between Diseases",
     "font": "arial",
     "fontSize": 18,
     "fontWeight": 400,
@@ -70,10 +70,10 @@
       "name": "color",
       "type": "ordinal",
       "range": {"scheme": "lightgreyred"},
+      "reverse": true,
       "domain": {
         "fields": [
-          {"data": "edges", "field": "value"},
-          {"signal": "count"}
+          {"data": "edges", "field": "value"}
         ],
         "sort": true
       }
@@ -107,7 +107,7 @@
           "height": {"scale": "position", "band": 1, "offset": -1},
           "fill": {"scale": "color", "field": "value"},
           "tooltip":
-            {"signal": "{'Shared Symptoms': datum.value}"}
+            {"signal": "{'No. of Different Symptoms': datum.value}"}
         }
       }
     },
@@ -122,7 +122,7 @@
           "height": {"scale": "position", "band": 1, "offset": -1},
           "fill": {"scale": "color", "field": "value"},
           "tooltip":
-            {"signal": "{'Shared Symptoms': datum.value}"}
+            {"signal": "{'No. of Different Symptoms': datum.value}"}
         }
       }
     },
@@ -171,10 +171,11 @@
       "type": "symbol",
       "stroke": "color",
       "fill": "color",
-      "title": ["Number of Shared", "Symptoms"],
+      "title": ["Number of Different", "Symptoms"],
       "titlePadding": 20,
       "titleFontSize": 14,
-      "columns": 2,
+      "titleAnchor": "middle",
+      "columns": 3,
       "columnPadding": 30,
       "rowPadding": 10,
       "titleFontWeight": 400,
