@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A re-orderable adjacency matrix depicting character co-occurrence in the novel Les Misérables.",
   "width": 800,
   "height": 800,
   "padding": 2,
@@ -43,10 +42,6 @@
         {
           "type": "lookup", "from": "nodes", "key": "index",
           "fields": ["source", "target"], "as": ["sourceNode", "targetNode"]
-        },
-        {
-          "type": "formula", "as": "group",
-          "expr": "datum.sourceNode.group === datum.targetNode.group ? datum.sourceNode.group : count"
         }
       ]
     },
