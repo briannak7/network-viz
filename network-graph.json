@@ -6,7 +6,7 @@
   "padding": 0,
   "autosize": "none",
   "title": {
-    "text": "Neurological Diseases Network",
+    "text": "Neurological Symptom-Disease Bipartite Network",
     "font": "sans-serif",
     "fontSize": 18,
     "fontWeight": 400,
